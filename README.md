@@ -1,5 +1,3 @@
-![badge-labs](https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg)
-
 # AIGF Certification Pipeline
 
 An open source, end-to-end certification pipeline that transforms [FINOS AI Governance Framework (AIGF)](https://www.finos.org/ai-governance) guidance into discrete, machine-configurable controls with predefined success criteria and compliance enforcement techniques.
