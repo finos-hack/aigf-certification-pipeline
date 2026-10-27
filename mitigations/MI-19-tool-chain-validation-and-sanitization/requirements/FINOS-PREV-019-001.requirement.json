@@ -1,14 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://finos-labs.github.io/aigf-certification-pipeline/mitigations/MI-19/requirements/FINOS-PREV-019-001.json",
+  "$id": "https://finos-labs.github.io/aigf-certification-pipeline/mitigations/MI-19-tool-chain-validation-and-sanitization/requirements/FINOS-PREV-019-001.requirement.json",
   "title": "Ensuring Appropriate Authorization Level",
   "type": "object",
   "allOf": [
     {
-      "$ref": "http://calm.finos.org/controls/2025-03/meta/control-requirement.json"
+      "$ref": "https://calm.finos.org/controls/2025-03/meta/control-requirement.json"
     }
   ],
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "control-id": {
       "const": "FINOS-PREV-019-001"
     },
@@ -47,7 +50,8 @@
           "requested-resource"
         ]
       },
-      "minItems": 3
+      "minItems": 3,
+      "uniqueItems": true
     }
   },
   "required": [
@@ -58,5 +62,6 @@
     "transaction-scope-source",
     "tool-decision-point",
     "required-decision-inputs"
-  ]
+  ],
+  "additionalProperties": false
 }

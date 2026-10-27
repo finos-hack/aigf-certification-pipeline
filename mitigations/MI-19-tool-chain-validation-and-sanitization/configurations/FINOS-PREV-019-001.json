@@ -1,5 +1,5 @@
 {
-  "$schema": "https://finos-labs.github.io/aigf-certification-pipeline/mitigations/MI-19/requirements/FINOS-PREV-019-001.json",
+  "$schema": "https://finos-labs.github.io/aigf-certification-pipeline/mitigations/MI-19-tool-chain-validation-and-sanitization/requirements/FINOS-PREV-019-001.requirement.json",
   "control-id": "FINOS-PREV-019-001",
   "name": "Ensuring Appropriate Authorization Level",
   "description": "System owners must ensure selected tools don't exceed the agent's or user's authorization level for the current transaction.",
